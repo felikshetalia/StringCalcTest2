@@ -40,9 +40,9 @@ name: .NET Core Desktop
 
 on:
   push:
-    branches: [ "workflows" ]
+    branches: [ "ci\test-workflow" ]
   pull_request:
-    branches: [ "workflows" ]
+    branches: [ "ci\test-workflow" ]
 
 jobs:
 
